@@ -35,6 +35,9 @@
 		506FBFAE2127E18C00FC2C94 /* ZZDiskCacheHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FBFA92127E18C00FC2C94 /* ZZDiskCacheHelper.swift */; };
 		506FBFE92127E1E400FC2C94 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FBFE62127E1E400FC2C94 /* Model.swift */; };
 		506FBFEA2127E1E400FC2C94 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FBFE72127E1E400FC2C94 /* NetworkError.swift */; };
+		506FBFEF2127F0F100FC2C94 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FBFEE2127F0F100FC2C94 /* BaseViewController.swift */; };
+		506FBFF22127F12E00FC2C94 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FBFF02127F12E00FC2C94 /* BaseTableViewController.swift */; };
+		506FBFF32127F12E00FC2C94 /* BaseRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FBFF12127F12E00FC2C94 /* BaseRefreshViewController.swift */; };
 		A3D9E5FB864DEA8880F83590 /* Pods_BMDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B7FDCC3B5B531E4C8101C6 /* Pods_BMDev.framework */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +96,9 @@
 		506FBFA92127E18C00FC2C94 /* ZZDiskCacheHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZDiskCacheHelper.swift; sourceTree = "<group>"; };
 		506FBFE62127E1E400FC2C94 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		506FBFE72127E1E400FC2C94 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		506FBFEE2127F0F100FC2C94 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		506FBFF02127F12E00FC2C94 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		506FBFF12127F12E00FC2C94 /* BaseRefreshViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRefreshViewController.swift; sourceTree = "<group>"; };
 		9BB03C851372F44334692199 /* Pods-BMDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMDev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BMDev/Pods-BMDev.debug.xcconfig"; sourceTree = "<group>"; };
 		E546CC1DCF34EB72A8023504 /* Pods-BMDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMDev.release.xcconfig"; path = "Pods/Target Support Files/Pods-BMDev/Pods-BMDev.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -197,6 +203,8 @@
 		506FBF672127DB4400FC2C94 /* BM */ = {
 			isa = PBXGroup;
 			children = (
+				506FBFED2127F0BA00FC2C94 /* LongController */,
+				506FBFEC2127F0BA00FC2C94 /* RegControlelr */,
 				506FBF682127DBD900FC2C94 /* HomeController */,
 			);
 			path = BM;
@@ -244,6 +252,9 @@
 			isa = PBXGroup;
 			children = (
 				506FBF822127E05400FC2C94 /* BaseTabBarController.swift */,
+				506FBFEE2127F0F100FC2C94 /* BaseViewController.swift */,
+				506FBFF12127F12E00FC2C94 /* BaseRefreshViewController.swift */,
+				506FBFF02127F12E00FC2C94 /* BaseTableViewController.swift */,
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
@@ -294,6 +305,20 @@
 				506FBFE72127E1E400FC2C94 /* NetworkError.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		506FBFEC2127F0BA00FC2C94 /* RegControlelr */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RegControlelr;
+			sourceTree = "<group>";
+		};
+		506FBFED2127F0BA00FC2C94 /* LongController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LongController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -511,10 +536,12 @@
 				506FBFE92127E1E400FC2C94 /* Model.swift in Sources */,
 				506FBF802127DFC000FC2C94 /* MLNavigationController.m in Sources */,
 				506FBFAC2127E18C00FC2C94 /* ZZDiskCache.swift in Sources */,
+				506FBFEF2127F0F100FC2C94 /* BaseViewController.swift in Sources */,
 				506FBF3F2127DA6500FC2C94 /* BMDev.xcdatamodeld in Sources */,
 				506FBF9B2127E09500FC2C94 /* YF.swift in Sources */,
 				506FBFAA2127E18C00FC2C94 /* Manager.swift in Sources */,
 				506FBF862127E05400FC2C94 /* BaseTabBarController.swift in Sources */,
+				506FBFF32127F12E00FC2C94 /* BaseRefreshViewController.swift in Sources */,
 				506FBFA22127E09500FC2C94 /* ZZNavBarTransparent.swift in Sources */,
 				506FBFA32127E09500FC2C94 /* MJEnum.swift in Sources */,
 				506FBFEA2127E1E400FC2C94 /* NetworkError.swift in Sources */,
@@ -525,6 +552,7 @@
 				506FBF9E2127E09500FC2C94 /* ExtensionView.swift in Sources */,
 				506FBF9F2127E09500FC2C94 /* AFColor.swift in Sources */,
 				506FBFA02127E09500FC2C94 /* ExtensionString.swift in Sources */,
+				506FBFF22127F12E00FC2C94 /* BaseTableViewController.swift in Sources */,
 				506FBF9D2127E09500FC2C94 /* WebView.swift in Sources */,
 				506FBF6A2127DBEB00FC2C94 /* HomeViewController.swift in Sources */,
 				506FBFAD2127E18C00FC2C94 /* String+MD5.swift in Sources */,
