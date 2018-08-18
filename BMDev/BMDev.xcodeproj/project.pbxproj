@@ -38,6 +38,8 @@
 		506FBFEF2127F0F100FC2C94 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FBFEE2127F0F100FC2C94 /* BaseViewController.swift */; };
 		506FBFF22127F12E00FC2C94 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FBFF02127F12E00FC2C94 /* BaseTableViewController.swift */; };
 		506FBFF32127F12E00FC2C94 /* BaseRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FBFF12127F12E00FC2C94 /* BaseRefreshViewController.swift */; };
+		506FBFF52127F2CC00FC2C94 /* BMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FBFF42127F2CC00FC2C94 /* BMLoginViewController.swift */; };
+		506FBFF72127F9A900FC2C94 /* RegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FBFF62127F9A900FC2C94 /* RegViewController.swift */; };
 		A3D9E5FB864DEA8880F83590 /* Pods_BMDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B7FDCC3B5B531E4C8101C6 /* Pods_BMDev.framework */; };
 /* End PBXBuildFile section */
 
@@ -99,6 +101,8 @@
 		506FBFEE2127F0F100FC2C94 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		506FBFF02127F12E00FC2C94 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		506FBFF12127F12E00FC2C94 /* BaseRefreshViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRefreshViewController.swift; sourceTree = "<group>"; };
+		506FBFF42127F2CC00FC2C94 /* BMLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMLoginViewController.swift; sourceTree = "<group>"; };
+		506FBFF62127F9A900FC2C94 /* RegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegViewController.swift; sourceTree = "<group>"; };
 		9BB03C851372F44334692199 /* Pods-BMDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMDev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BMDev/Pods-BMDev.debug.xcconfig"; sourceTree = "<group>"; };
 		E546CC1DCF34EB72A8023504 /* Pods-BMDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMDev.release.xcconfig"; path = "Pods/Target Support Files/Pods-BMDev/Pods-BMDev.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -310,6 +314,7 @@
 		506FBFEC2127F0BA00FC2C94 /* RegControlelr */ = {
 			isa = PBXGroup;
 			children = (
+				506FBFF62127F9A900FC2C94 /* RegViewController.swift */,
 			);
 			path = RegControlelr;
 			sourceTree = "<group>";
@@ -317,6 +322,7 @@
 		506FBFED2127F0BA00FC2C94 /* LongController */ = {
 			isa = PBXGroup;
 			children = (
+				506FBFF42127F2CC00FC2C94 /* BMLoginViewController.swift */,
 			);
 			path = LongController;
 			sourceTree = "<group>";
@@ -549,6 +555,7 @@
 				506FBFAE2127E18C00FC2C94 /* ZZDiskCacheHelper.swift in Sources */,
 				506FBFA12127E09500FC2C94 /* NSMutableAttributedExtension.swift in Sources */,
 				506FBF982127E09500FC2C94 /* ReactiveCocoaExtension.swift in Sources */,
+				506FBFF72127F9A900FC2C94 /* RegViewController.swift in Sources */,
 				506FBF9E2127E09500FC2C94 /* ExtensionView.swift in Sources */,
 				506FBF9F2127E09500FC2C94 /* AFColor.swift in Sources */,
 				506FBFA02127E09500FC2C94 /* ExtensionString.swift in Sources */,
@@ -556,6 +563,7 @@
 				506FBF9D2127E09500FC2C94 /* WebView.swift in Sources */,
 				506FBF6A2127DBEB00FC2C94 /* HomeViewController.swift in Sources */,
 				506FBFAD2127E18C00FC2C94 /* String+MD5.swift in Sources */,
+				506FBFF52127F2CC00FC2C94 /* BMLoginViewController.swift in Sources */,
 				506FBFAB2127E18C00FC2C94 /* AFNManager.swift in Sources */,
 				506FBF992127E09500FC2C94 /* WkwebViewConfig.swift in Sources */,
 			);

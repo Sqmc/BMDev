@@ -35,7 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func setTabbarController() -> Void {
         
-        let navc=MLNavigationController.init(rootViewController: HomeViewController.init())
+        let navc=MLNavigationController.init(rootViewController: BMLoginViewController.init())
         self.window?.rootViewController=navc
     }
     func setUpTabbarController() -> Void {
@@ -45,7 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func rootViewController() -> UIViewController {
         
-        let tabClassArray=["TestOneViewController","TableViewHeightController","TestTwoViewController"]
+        let tabClassArray=["HomeViewController","TableViewHeightController","TestTwoViewController"]
         let tabItemUnSeletedImageArray=["首页","更多","更多"]
         let tabItemSeletedImageArray=["首页选中","更多选中","更多选中"]
         let tabItemNamesArray=["首页","更多","更多"]

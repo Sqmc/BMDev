@@ -18,3 +18,16 @@ class BMLoginViewController: BaseViewController {
     }
 
 }
+
+
+
+extension BMLoginViewController{
+    
+    func buttItemArray(items:[String]) -> Void {
+        
+        items.forEach { (item) in
+            
+            print("item:\(item)")
+        }
+    }
+}
