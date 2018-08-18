@@ -38,6 +38,7 @@
 		506FBFEF2127F0F100FC2C94 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FBFEE2127F0F100FC2C94 /* BaseViewController.swift */; };
 		506FBFF22127F12E00FC2C94 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FBFF02127F12E00FC2C94 /* BaseTableViewController.swift */; };
 		506FBFF32127F12E00FC2C94 /* BaseRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FBFF12127F12E00FC2C94 /* BaseRefreshViewController.swift */; };
+		50E406D3212805B800A61EBC /* BMSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E406D2212805B800A61EBC /* BMSetViewController.swift */; };
 		A3D9E5FB864DEA8880F83590 /* Pods_BMDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B7FDCC3B5B531E4C8101C6 /* Pods_BMDev.framework */; };
 /* End PBXBuildFile section */
 
@@ -99,6 +100,7 @@
 		506FBFEE2127F0F100FC2C94 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		506FBFF02127F12E00FC2C94 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		506FBFF12127F12E00FC2C94 /* BaseRefreshViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRefreshViewController.swift; sourceTree = "<group>"; };
+		50E406D2212805B800A61EBC /* BMSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMSetViewController.swift; sourceTree = "<group>"; };
 		9BB03C851372F44334692199 /* Pods-BMDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMDev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BMDev/Pods-BMDev.debug.xcconfig"; sourceTree = "<group>"; };
 		E546CC1DCF34EB72A8023504 /* Pods-BMDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMDev.release.xcconfig"; path = "Pods/Target Support Files/Pods-BMDev/Pods-BMDev.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -203,6 +205,7 @@
 		506FBF672127DB4400FC2C94 /* BM */ = {
 			isa = PBXGroup;
 			children = (
+				50E406D1212805A200A61EBC /* SetController */,
 				506FBFED2127F0BA00FC2C94 /* LongController */,
 				506FBFEC2127F0BA00FC2C94 /* RegControlelr */,
 				506FBF682127DBD900FC2C94 /* HomeController */,
@@ -319,6 +322,14 @@
 			children = (
 			);
 			path = LongController;
+			sourceTree = "<group>";
+		};
+		50E406D1212805A200A61EBC /* SetController */ = {
+			isa = PBXGroup;
+			children = (
+				50E406D2212805B800A61EBC /* BMSetViewController.swift */,
+			);
+			path = SetController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -555,6 +566,7 @@
 				506FBFF22127F12E00FC2C94 /* BaseTableViewController.swift in Sources */,
 				506FBF9D2127E09500FC2C94 /* WebView.swift in Sources */,
 				506FBF6A2127DBEB00FC2C94 /* HomeViewController.swift in Sources */,
+				50E406D3212805B800A61EBC /* BMSetViewController.swift in Sources */,
 				506FBFAD2127E18C00FC2C94 /* String+MD5.swift in Sources */,
 				506FBFAB2127E18C00FC2C94 /* AFNManager.swift in Sources */,
 				506FBF992127E09500FC2C94 /* WkwebViewConfig.swift in Sources */,
